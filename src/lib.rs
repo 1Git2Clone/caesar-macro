@@ -61,7 +61,6 @@ pub fn caesar_cipher(input: TokenStream) -> TokenStream {
             _ => c,
         });
     }
-    let output_lit = syn::LitStr::new(output.as_str(), proc_macro2::Span::call_site()).value();
 
-    quote!(#output_lit).into()
+    quote!(#output).into()
 }
