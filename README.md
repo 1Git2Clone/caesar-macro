@@ -22,10 +22,15 @@ Or with git:
 ceasar_macro = { git = "https://github.com/1Git2Clone/ceasar_cipher" }
 ```
 
-Or from [crates.io](https://crates.io/):
+Or from [crates.io](https://crates.io/caesar_macro):
 
 ```sh
 cargo add ceasar_macro
+```
+
+```toml
+# Cargo.toml
+ceasar_macro = "0.1.1"
 ```
 
 [1]: https://en.wikipedia.org/wiki/Caesar_cipher "Wikipedia/Caesar_cipher"
