@@ -30,7 +30,7 @@ cargo add ceasar_macro
 
 ```toml
 # Cargo.toml
-ceasar_macro = "0.1.1"
+ceasar_macro = "0.1.2"
 ```
 
 [1]: https://en.wikipedia.org/wiki/Caesar_cipher "Wikipedia/Caesar_cipher"
