@@ -19,7 +19,7 @@ Or with git:
 
 ```toml
 [dependencies]
-ceasar_macro = { git = "https://github.com/1Git2Clone/caesar_macro" }
+ceasar_macro = { git = "https://github.com/1Git2Clone/caesar-macro" }
 ```
 
 Or from [crates.io](https://crates.io/caesar_macro):
